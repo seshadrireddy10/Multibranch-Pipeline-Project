@@ -37,7 +37,12 @@ pipeline {
                 echo 'develop branch changs'
             }
         }
-
+        stage('develop-devops') {
+            steps {
+                echo 'develop branch changs'
+                echo 'devops brach added'
+            }
+        }
 
 
     }
