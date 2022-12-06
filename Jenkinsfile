@@ -32,6 +32,12 @@ pipeline {
                 echo 'devops'
             }
         }
+        stage('develop') {
+            steps {
+                echo 'develop branch changs'
+            }
+        }
+
 
 
     }
