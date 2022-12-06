@@ -43,6 +43,14 @@ pipeline {
                 echo 'devops brach added'
             }
         }
+        stage('hema') {
+            steps {
+                echo 'develop branch changs'
+                echo 'devops brach added'
+                echo 'welcome to hema'
+            }
+        }
+
 
 
     }
