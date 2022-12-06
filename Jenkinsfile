@@ -27,6 +27,13 @@ pipeline {
                 echo 'non prod'
             }
         }
+        stage('devops') {
+            steps {
+                echo 'devops'
+            }
+        }
+
+
     }
 }
 
